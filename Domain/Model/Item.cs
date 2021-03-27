@@ -5,9 +5,11 @@
         public string Nome { get; private set; }
         public int Quanidade { get; private set; }
         public decimal ValorUnitario { get; private set; }
-        public decimal SubTotal { 
-            get { 
-                return ValorUnitario * Quanidade; 
+        public decimal SubTotal
+        {
+            get
+            {
+                return ValorUnitario * Quanidade;
             }
         }
     }
